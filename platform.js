@@ -2,7 +2,7 @@ class Platform{
     constructor(x,y,width,height){
     var options = {
     isStatic:true,
-    density:1,
+    density:10,
     }
 this.body = Bodies.rectangle(x,y,width-20,height-90,options)
 this.width=width;

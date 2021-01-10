@@ -1,7 +1,8 @@
 class Player{
     constructor(x,y,width,height){
     var options = {
-    isStatic:false
+    isStatic:false,
+    density:5,
     }
 this.body = Bodies.rectangle(x,y,width,height,options)
 this.width=width
